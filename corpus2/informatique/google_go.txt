@@ -1,0 +1,22 @@
+
+
+Le langage de programmation open source de Google Go engrange toujours plus de fonctions et d'améliorations en attendant la disponibilité générale de sa version 1.24 attendue pour février 2025. En attendant, quoi de neuf dans la dernière release candidate ? Tout d'abord un support complet pour les alias de type générique, dans lequel un alias de type peut être paramétré comme un type défini. Auparavant, un alias de type pouvait faire référence à un type générique, mais l'alias de type ne pouvait pas avoir ses propres paramètres. Pour l'instant, les alias de type générique peuvent être désactivés en définissant GOEXPERIMENT=noaliastypeparams mais ce paramètre sera supprimé dans Go 1.25.
+
+Avec la commande go dans Go 1.24, les modules Go peuvent désormais suivre les dépendances exécutables en utilisant des directives d'outils dans les fichiers go.mod. Il n'est donc plus nécessaire d'ajouter des outils en tant qu'importations vides dans un fichier conventionnellement nommé tools.go. La commande go tool peut à présent exécuter ces outils en plus des outils fournis avec la distribution Go. Toujours avec la commande go, une nouvelle variable d'environnement GOAUTH offre un moyen flexible d'authentifier les récupérations de modules privés.
+
+Cgo, qui sert à créer des paquets Go qui appellent du code C, supporte dorénavant de nouvelles annotations pour les fonctions C afin d'améliorer les performances d'exécution. Avec ces améliorations, #cgo noescape cFunctionName indique au compilateur que la mémoire passée à la fonction C cFunctionName ne s'échappe pas. De même, #cgo nocallback cFunctionName indique au compilateur que la fonction C cFunctionName ne rappelle aucune fonction Go.
+Zoom sur les autres fonctions et améliorations de Go 1.24
+
+- De multiples améliorations de performance du runtime dans Go 1.24 réduisent les surcharges CPU de 2 à 3% en moyenne sur une suite de benchmarks représentatifs ;
+
+- Un dernier analyseur de tests signale les erreurs courantes dans les déclarations de tests, les fuzzers, les benchmarks et les exemples dans les paquets de tests, comme les signatures incorrectes ou les exemples qui documentent des identifiants inexistants. Certaines de ces erreurs peuvent empêcher l'exécution des tests ;
+
+- Le mécanisme interne de mise en cache des binaires et des tests de cmd/go peut désormais être mis en œuvre par des processus enfants implémentant un protocole JSON entre l'outil cmd/go et le processus enfant nommé par la variable d'environnement GOCACHEPROG ;
+
+- Un paquet expérimental testing/synctest permet de tester du code concurrent ;
+
+- Le paquet debug/elf ajoute plusieurs nouvelles constantes, types et méthodes pour pouvoir prendre en charge la gestion des versions dynamiques et des drapeaux de version dans les fichiers ELF (Executable and Linkable Format) ;
+
+- Pour Linux, Go 1.24 nécessite la version 3.2 du noyau Linux ou une version ultérieure.
+
+Go 1.24 fait suite à Go 1.23, publié en août, qui apportait aux développeurs des temps de construction plus rapides grâce à l’optimisation guidée par le profil (PGO).

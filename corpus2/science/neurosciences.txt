@@ -1,0 +1,25 @@
+Les neurosciences, en tant que domaine interdisciplinaire, ont récemment connu des avancées significatives qui enrichissent notre compréhension du cerveau et de ses fonctions. Voici un aperçu des développements récents dans ce domaine :
+
+1. Cartographie complète du cerveau de la mouche du vinaigre
+
+Un consortium international de chercheurs, FlyWire, a achevé la cartographie complète du cerveau de la mouche du vinaigre (Drosophila melanogaster), composé de 139 255 neurones et 54,5 millions de synapses. Ce projet a nécessité de découper le cerveau en 7 000 tranches, analysées manuellement puis assistées par intelligence artificielle, avec des corrections humaines. Cette avancée offre une ressource précieuse pour comprendre comment les fonctions cérébrales découlent des circuits neuronaux, avec des implications potentielles pour le traitement des troubles neurologiques. 
+LE MONDE
+
+2. Réflexions sur l'efficacité énergétique du cerveau
+
+Le cerveau humain, bien qu'il ne représente que 2 % de la masse corporelle, consomme environ 20 % de l'énergie totale du corps. Des recherches récentes explorent ce paradoxe d'efficacité énergétique, suggérant que la structure et le fonctionnement du réseau cérébral pourraient inspirer des réseaux artificiels plus efficaces énergétiquement. Cette compréhension pourrait avoir des implications pour le développement de technologies plus durables. 
+LE MONDE
+
+3. Avancées en neurotechnologies et leurs défis éthiques
+
+Les neurotechnologies, bien qu'absentes des dictionnaires comme le Larousse, sont en pleine expansion et révolutionnent déjà la médecine. Des patients résistants aux traitements d’épilepsie utilisent la neuromodulation pour réduire les crises, et des essais cliniques sont en cours pour implanter des dispositifs cérébraux pour la dépression résistante. Cependant, ces avancées soulèvent des préoccupations éthiques et légales concernant l'utilisation des données neuronales et les dérives commerciales. L'Unesco prépare des recommandations pour un cadre éthique, et des réflexions sont en cours sur la justice et l’accessibilité de ces technologies. 
+
+4. Mises à jour sur la mémoire et son fonctionnement
+
+Une étude récente publiée dans Nature par une équipe de l'école de médecine du Mont Sinaï explore comment les neurones intègrent et mettent à jour les souvenirs dans le temps. Les chercheurs ont observé que, après une expérience stressante, le cerveau rejoue non seulement l'événement récent mais aussi des souvenirs neutres antérieurs, intégrant ainsi les souvenirs de manière flexible et continue. Cette capacité pourrait contribuer à des troubles comme le stress post-traumatique, suggérant des fenêtres thérapeutiques après un traumatisme. 
+
+5. Développements dans le traitement de l'autisme
+
+Des recherches récentes ont identifié des variantes génétiques, notamment dans le gène DDX53 situé sur le chromosome X, comme contributrices au trouble du spectre de l'autisme (TSA). Ces découvertes offrent des perspectives pour de futures approches thérapeutiques ciblées. 
+
+Ces avancées illustrent la dynamique et la diversité des recherches en neurosciences, avec des implications potentielles pour la médecine, la psychologie et les technologies émergentes.
